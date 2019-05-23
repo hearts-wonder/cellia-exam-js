@@ -1,0 +1,92 @@
+/*general*/
+* { box-sizing:border-box; }
+body { font-family: "Trebuchet MS";
+}
+h1 {font-family:"Trebuchet Bold";
+}
+
+/*general end*/
+/*header start*/
+
+
+#welcome {
+	background-size:cover;
+	padding-top:80px;
+	width: 100%;
+	color:black;
+
+}
+
+#menu li {display:inline-block;
+
+}
+
+#slider {
+	
+}
+ .p1 {
+
+text-align:center;
+	display:block;
+	z-index:100;
+	font-family: "Trebuchet bold";
+	font-weight: bold;
+	font-size: 30px;
+ }
+ .p2 {
+	text-align:center;
+	display:block;
+	z-index:100;	
+}
+
+/*section start*/
+#calendar {
+	padding-left:0px;
+}
+input {
+	background-color: white;
+}
+section {
+	padding-top:20px;
+}
+/*section end*/
+
+/*main start*/
+
+main{
+	padding-top:20px;
+}
+button {
+	height:30px;
+	float:right;
+	display:inline-block;
+	color:white;
+	background-color: green;
+
+}
+#resultats {
+	float:left;
+	padding:bottom: 20px;
+}
+#sort, #sortbut {
+	float:right;
+}
+
+/*main end*/
+/*footer start*/
+#footimg {
+	size:auto;
+	justify-content: center;
+	height:20vh;
+	width:100%;
+
+}
+footer p {
+	float:left;
+	margin:auto;
+}
+
+/*footer end*/
+@media (min-width: 768px){
+#menu { display: none !important;}
+}
